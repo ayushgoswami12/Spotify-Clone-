@@ -1,0 +1,94 @@
+.right{
+    color: white;
+}
+.nav svg{
+    color: white;
+}
+.header{
+display: flex;
+background-color: rgb(37, 37, 37);
+align-items: center;
+padding: 15px;
+justify-content: space-between;
+}
+.nav svg{
+    border-radius: 12px;
+    /* border: 1px solid white; */
+}
+#login{
+    padding:17px;
+    font-weight: bold;
+    padding-right: 36px;
+    padding-left: 36px;
+    border-radius: 25px;
+    font-size: 14px;
+  transition: transform 0.1s ease;
+
+}
+#login:hover{
+    transform: scale(1.05);
+}
+#signup{
+    /* font:; */
+    color: grey;
+    border: none;
+background-color: rgb(37, 37, 37);
+padding: 8px;
+padding-right: 28px;
+font-size: 16px;
+transition: transform 0.1s ease;
+
+    font-weight: bolder;
+}
+#signup:hover{
+    /* font:; */
+    transform: scale(1.05);
+
+    color: white;
+    cursor: pointer;
+}
+.spotifyPlaylist{
+    padding: 15px;
+
+}
+.spotifyPlaylist:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cardHolder{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.playlistimg{
+    width: 150px;
+}
+.card1{
+    width: 160px;
+    margin: 15px;
+    padding: 15px;
+    /* display: flex; */
+    position: relative;
+}
+.card1:hover{
+    background-color: rgb(37, 37, 37);
+
+    cursor: pointer;
+}
+.playlistpara{
+    font-size: small;
+    color: grey;
+    padding: 2px;
+
+}
+.playlistheading{
+    padding: 2px;
+    font-size: medium;
+}
+.icon{
+    position: absolute;
+    top: 134px;
+    right: 24px;
+    transition: all 1s ease-out;
+    
+}
